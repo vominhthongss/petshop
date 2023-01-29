@@ -1,27 +1,27 @@
-<div class="border-t-2 border-yellow-400 pt-5 mt-5">
+<div class="border-t-2 border-yellow-400 pt-5 px-5 mt-5 font-mono">
     <div class="grid grid-cols-4">
 
         <div class="px-2">
 
-            <div class="footer_item footer_item__links ">
-                <h6 class="font-bold">Your account</h6>
+            <div>
+                <h6 class="font-bold">Tài khoản của bạn</h6>
 
-                <ul class="list_links">
+                <ul>
 
                     <li>
-                        <a href="/account">Personal info</a>
+                        <a href="#">Thông tin cá nhân</a>
                     </li>
 
                     <li>
-                        <a href="/account/orders">Orders</a>
+                        <a href="#">Đặt hàng</a>
                     </li>
 
                     <li>
-                        <a href="/account/credit">Credit slips</a>
+                        <a href="#">Thanh toán thẻ</a>
                     </li>
 
                     <li>
-                        <a href="/account/addresses">Addresses</a>
+                        <a href="#">Địa chỉ</a>
                     </li>
 
                 </ul>
@@ -31,85 +31,88 @@
 
         </div>
 
-        <div class="col-sm-3 footer_block ">
+        <div>
 
-            <div class="footer_item footer_item__contacts">
-                <h6 class="font-bold">Customer Service</h6>
-                <ul class="list_links">
+            <div>
+                <h6 class="font-bold">Dịch vụ khách hàng</h6>
+                <ul>
                     <li>
 
-                        <div class="contact_address">
-                            <p>Monday to Friday <br>10am - 6.30pm (NewYork time) </p>
+                        <div>
+                            <p>Cả tuần <br>10am - 6.30pm (Cần Thơ) </p>
                         </div>
 
                     </li>
                     <li>
 
-                        <a class="contact_phone tel_ltr" href="tel:+(001) 23 45 67 89">
-                            +(001) 23 45 67 89</a>
+                        <a href="##">
+                            +(37) 63 47 325</a>
 
                     </li>
                     <li>
 
-                        <a class="contact_email" href="mailto:shopify@zemez.io">shopify@zemez.io</a>
+                        <a href="mailto:petshop">petshop@gmail.com</a>
 
                     </li>
                 </ul>
             </div>
 
         </div>
+
+
 
         <div class="px-2">
 
-            <div class="footer_item footer_item__contacts">
-                <h6 class="font-bold">Our guarantees</h6>
-                <ul class="list_links">
+            <div>
+                <h6 class="font-bold">Cữa hàng chúng tôi</h6>
+
+                <ul>
+
                     <li>
-
-                        <div class="contact_address">
-                            <p>Shipping in 3 days</p>
-                            <p>Free returns within 14 days</p>
-                            <p>Secure payments</p>
-                        </div>
-
+                        <a href="##">Vận chuyển</a>
                     </li>
+
                     <li>
-
+                        <a href="#">Luật pháp</a>
                     </li>
+
                     <li>
-
+                        <a href="#">Thông tin về shop</a>
                     </li>
+
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Điều khoản và dịch vụ sử dụng</a>
+                    </li>
+
                 </ul>
             </div>
 
+
+
         </div>
+        <div class="px-2">
 
-        <div class="col-sm-3 footer_block ">
+            <div>
+                <h6 class="font-bold">Chính sách đổi trả</h6>
 
-            <div class="footer_item footer_item__links ">
-                <h6 class="font-bold">Our company</h6>
-
-                <ul class="list_links">
+                <ul>
 
                     <li>
-                        <a href="/pages/delivery-info">Delivery</a>
+                        <a href="##">Các lỗi sản phẩm</a>
                     </li>
 
                     <li>
-                        <a href="/pages/privacy-policy">Legal Notice</a>
+                        <a href="#">Thời gian xử lý</a>
                     </li>
 
                     <li>
-                        <a href="/pages/about-us">About us</a>
+                        <a href="#">Cách thức đổi trả</a>
                     </li>
 
-                    <li>
-                        <a href="/pages/contact-us">Contact us</a>
-                    </li>
-
-                    <li>
-                        <a href="/pages/privacy-policy">Terms and conditions of use</a>
-                    </li>
 
                 </ul>
             </div>
@@ -119,4 +122,6 @@
         </div>
 
     </div>
+    <div class="w-full bg-yellow-300 mt-5"><span class="ml-2">© 2023. Ecommerce Website by vominhthongss</span></div>
+
 </div>
