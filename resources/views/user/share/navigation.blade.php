@@ -10,12 +10,154 @@
 <div class="w-full h-20 flex justify-center items-center space-x-5  bg-white border-t-2 border-b-2 border-yellow-300">
     <div class="text-left w-[200px]"><img class="w-16" src="{{ asset('logo.png') }}" alt=""></div>
     <div class="flex space-x-5 font-mono">
-        <div
+        <a href="{{ route('home') }}"
             class="hover:underline font-bold cursor-pointer max-w-xs hover:scale-110 transition duration-300 ease-in-out">
-            TRANG CHỦ</div>
-        <div
-            class="hover:underline font-bold cursor-pointer max-w-xs hover:scale-110 transition duration-300 ease-in-out">
-            SẢN PHẨM</div>
+            TRANG CHỦ</a>
+        <a data-bs-toggle="dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+            class="dropdown relative hover:underline font-bold cursor-pointer max-w-xs hover:scale-110 transition duration-300 ease-in-out">
+            SẢN PHẨM
+            <ul class="
+
+              dropdown-menu
+              absolute
+              bg-white
+              text-base
+              z-50
+              float-left
+              list-none
+              text-left
+
+              shadow-lg
+              hidden
+              m-0
+              bg-clip-padding
+              border-none
+            "
+                aria-labelledby="dropdownMenuButton">
+                <li>
+                    <a class="
+                  dropdown-item
+                  text-sm
+                  py-2
+                  px-4
+                  font-normal
+                  block
+                  w-full
+                  whitespace-nowrap
+                  bg-transparent
+                  text-gray-700
+                  hover:bg-gray-100
+                  hover:underline
+                  -mt-10
+                "
+                        href="#">Thức ăn</a>
+                </li>
+                <li>
+                    <a class="
+                  dropdown-item
+                  text-sm
+                  py-2
+                  px-4
+                  font-normal
+                  block
+                  w-full
+                  whitespace-nowrap
+                  bg-transparent
+                  text-gray-700
+                  hover:bg-gray-100
+                  hover:underline
+                "
+                        href="#">Xà phòng</a>
+                </li>
+                <li>
+                    <a class="
+                  dropdown-item
+                  text-sm
+                  py-2
+                  px-4
+                  font-normal
+                  block
+                  w-full
+                  whitespace-nowrap
+                  bg-transparent
+                  text-gray-700
+                  hover:bg-gray-100
+                  hover:underline
+                "
+                        href="#">Vòng cổ</a>
+                </li>
+                <li>
+                    <a class="
+                  dropdown-item
+                  text-sm
+                  py-2
+                  px-4
+                  font-normal
+                  block
+                  w-full
+                  whitespace-nowrap
+                  bg-transparent
+                  text-gray-700
+                  hover:bg-gray-100
+                  hover:underline
+                "
+                        href="#">Niệm</a>
+                </li>
+                <li>
+                    <a class="
+                  dropdown-item
+                  text-sm
+                  py-2
+                  px-4
+                  font-normal
+                  block
+                  w-full
+                  whitespace-nowrap
+                  bg-transparent
+                  text-gray-700
+                  hover:bg-gray-100
+                  hover:underline
+                "
+                        href="#">Chải lông</a>
+                </li>
+                <li>
+                    <a class="
+                  dropdown-item
+                  text-sm
+                  py-2
+                  px-4
+                  font-normal
+                  block
+                  w-full
+                  whitespace-nowrap
+                  bg-transparent
+                  text-gray-700
+                  hover:bg-gray-100
+                  hover:underline
+                "
+                        href="#">Thuốc</a>
+                </li>
+                <li>
+                    <a class="
+                  dropdown-item
+                  text-sm
+                  py-2
+                  px-4
+                  font-normal
+                  block
+                  w-full
+                  whitespace-nowrap
+                  bg-transparent
+                  text-gray-700
+                  hover:bg-gray-100
+                  hover:underline
+                "
+                        href="#">Vệ sinh</a>
+                </li>
+            </ul>
+
+
+        </a>
         <div
             class="hover:underline font-bold cursor-pointer max-w-xs hover:scale-110 transition duration-300 ease-in-out">
             GIỚI THIỆU</div>
@@ -24,12 +166,13 @@
             TIN TỨC</div>
     </div>
     <div class="flex space-x-4 float-right justify-end w-[200px]">
-        <svg class="cursor-pointer hover:scale-150" width="20" height="20" viewBox="0 0 20 20"
+        @include('user.share.search')
+        {{-- <svg class="cursor-pointer hover:scale-150" width="20" height="20" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M20 18.5787L16.2437 14.8223C17.4619 13.2995 18.2741 11.269 18.2741 9.13706C18.2741 4.06091 14.2132 0 9.13706 0C4.06091 0 0 4.06091 0 9.13706C0 14.2132 4.06091 18.2741 9.13706 18.2741C11.269 18.2741 13.2995 17.5635 14.8223 16.2437L18.5787 20L20 18.5787ZM2.03046 9.13706C2.03046 5.17766 5.17766 2.03046 9.13706 2.03046C13.0964 2.03046 16.2437 5.17766 16.2437 9.13706C16.2437 13.0964 13.0964 16.2437 9.13706 16.2437C5.17766 16.2437 2.03046 13.0964 2.03046 9.13706Z">
             </path>
-        </svg>
+        </svg> --}}
         <svg class="cursor-pointer hover:scale-150" width="20" height="20" viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg">
             <path

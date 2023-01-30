@@ -26,3 +26,11 @@ Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
     /* Defining the route for the home page. */
     Route::get('/', ['as' => 'home', 'uses' => $controller . $method]);
 });
+/* Defining the prefix for the controller and the route for the home page. */
+$prefix = '/collection';
+Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
+    $controller = $prefixControllerUser . '\CollectionController';
+    $method = '@index';
+    /* Defining the route for the collection page. */
+    Route::get('/{type}', ['as' => 'collection', 'uses' => $controller . $method]);
+});

@@ -1,5 +1,5 @@
 <div class="border-t-2 border-yellow-400 pt-5 px-5 mt-5 font-mono">
-    <div class="grid grid-cols-4">
+    <div class="grid xl:grid-cols-4 grid-cols-2 gap-4">
 
         <div class="px-2">
 
@@ -39,19 +39,19 @@
                     <li>
 
                         <div>
-                            <p>Cả tuần <br>10am - 6.30pm (Cần Thơ) </p>
+                            <p>Cả tuần <br>24/24 </p>
                         </div>
 
                     </li>
                     <li>
 
-                        <a href="##">
-                            +(37) 63 47 325</a>
+                        <a class="text-blue-500" href="##">
+                            0376.347.325</a>
 
                     </li>
                     <li>
 
-                        <a href="mailto:petshop">petshop@gmail.com</a>
+                        <a class="text-blue-500 underline" href="mailto:petshop">petshop@gmail.com</a>
 
                     </li>
                 </ul>
