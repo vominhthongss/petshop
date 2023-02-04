@@ -5,7 +5,10 @@
         <div class="w-fit h-full mt-28">
         </div>
         <div class="pt-10 px-5">
-            <div class="text-2xl text-center font-mono font-bold">
+            <div class="text-2xl font-mono font-bold space-y-5">
+                @foreach ($type as $item)
+                    <span>Các sản phẩm về <span class="text-red-500">{{ $item }}</span></span>
+                @endforeach
                 <div class="flex justify-start items-center">
                     <span class="mr-2 text-xl h-full ">Sắp xếp:</span>
                     <div class="xl:w-96">
@@ -34,9 +37,7 @@
                             <option value="4">Cho mèo</option>
                         </select>
                     </div>
-                    @foreach ($type as $item)
-                        <div>{{ $item }}</div>
-                    @endforeach
+
                 </div>
             </div>
             <div class="grid xl:grid-cols-4 grid-cols-2 gap-4">

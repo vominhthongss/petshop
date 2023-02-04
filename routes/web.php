@@ -26,11 +26,27 @@ Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
     /* Defining the route for the home page. */
     Route::get('/', ['as' => 'home', 'uses' => $controller . $method]);
 });
-/* Defining the prefix for the controller and the route for the home page. */
+/* Defining the prefix for the controller and the route for the colection page. */
 $prefix = '/collection';
 Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
     $controller = $prefixControllerUser . '\CollectionController';
     $method = '@index';
     /* Defining the route for the collection page. */
     Route::get('/{type}', ['as' => 'collection', 'uses' => $controller . $method]);
+});
+/* Defining the prefix for the controller and the route for the detailproduct page. */
+$prefix = '/detailproduct';
+Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
+    $controller = $prefixControllerUser . '\DetailProductController';
+    $method = '@index';
+    /* Defining the route for the collection page. */
+    Route::get('/{id}', ['as' => 'detailproduct', 'uses' => $controller . $method]);
+});
+/* Defining the prefix for the controller and the route for the cart page. */
+$prefix = '/cart';
+Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
+    $controller = $prefixControllerUser . '\CartController';
+    $method = '@index';
+    /* Defining the route for the collection page. */
+    Route::get('/{username}', ['as' => 'cart', 'uses' => $controller . $method]);
 });
