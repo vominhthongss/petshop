@@ -18,140 +18,140 @@
             SẢN PHẨM
             <ul class="
 
-              dropdown-menu
-              absolute
-              bg-white
-              text-base
-              z-50
-              float-left
-              list-none
-              text-left
+                  dropdown-menu
+                  absolute
+                  bg-white
+                  text-base
+                  z-50
+                  float-left
+                  list-none
+                  text-left
 
-              shadow-lg
-              hidden
-              m-0
-              bg-clip-padding
-              border-none
-            "
+                  shadow-lg
+                  hidden
+                  m-0
+                  bg-clip-padding
+                  border-none
+                "
                 aria-labelledby="dropdownMenuButton">
                 <li>
                     <a class="
-                  dropdown-item
-                  text-sm
-                  py-2
-                  px-4
-                  font-normal
-                  block
-                  w-full
-                  whitespace-nowrap
-                  bg-transparent
-                  text-gray-700
-                  hover:bg-gray-100
-                  hover:underline
-                  -mt-10
-                "
+                      dropdown-item
+                      text-sm
+                      py-2
+                      px-4
+                      font-normal
+                      block
+                      w-full
+                      whitespace-nowrap
+                      bg-transparent
+                      text-gray-700
+                      hover:bg-gray-100
+                      hover:underline
+                      -mt-10
+                    "
                         href="#">Thức ăn</a>
                 </li>
                 <li>
                     <a class="
-                  dropdown-item
-                  text-sm
-                  py-2
-                  px-4
-                  font-normal
-                  block
-                  w-full
-                  whitespace-nowrap
-                  bg-transparent
-                  text-gray-700
-                  hover:bg-gray-100
-                  hover:underline
-                "
+                      dropdown-item
+                      text-sm
+                      py-2
+                      px-4
+                      font-normal
+                      block
+                      w-full
+                      whitespace-nowrap
+                      bg-transparent
+                      text-gray-700
+                      hover:bg-gray-100
+                      hover:underline
+                    "
                         href="#">Xà phòng</a>
                 </li>
                 <li>
                     <a class="
-                  dropdown-item
-                  text-sm
-                  py-2
-                  px-4
-                  font-normal
-                  block
-                  w-full
-                  whitespace-nowrap
-                  bg-transparent
-                  text-gray-700
-                  hover:bg-gray-100
-                  hover:underline
-                "
+                      dropdown-item
+                      text-sm
+                      py-2
+                      px-4
+                      font-normal
+                      block
+                      w-full
+                      whitespace-nowrap
+                      bg-transparent
+                      text-gray-700
+                      hover:bg-gray-100
+                      hover:underline
+                    "
                         href="#">Vòng cổ</a>
                 </li>
                 <li>
                     <a class="
-                  dropdown-item
-                  text-sm
-                  py-2
-                  px-4
-                  font-normal
-                  block
-                  w-full
-                  whitespace-nowrap
-                  bg-transparent
-                  text-gray-700
-                  hover:bg-gray-100
-                  hover:underline
-                "
+                      dropdown-item
+                      text-sm
+                      py-2
+                      px-4
+                      font-normal
+                      block
+                      w-full
+                      whitespace-nowrap
+                      bg-transparent
+                      text-gray-700
+                      hover:bg-gray-100
+                      hover:underline
+                    "
                         href="#">Niệm</a>
                 </li>
                 <li>
                     <a class="
-                  dropdown-item
-                  text-sm
-                  py-2
-                  px-4
-                  font-normal
-                  block
-                  w-full
-                  whitespace-nowrap
-                  bg-transparent
-                  text-gray-700
-                  hover:bg-gray-100
-                  hover:underline
-                "
+                      dropdown-item
+                      text-sm
+                      py-2
+                      px-4
+                      font-normal
+                      block
+                      w-full
+                      whitespace-nowrap
+                      bg-transparent
+                      text-gray-700
+                      hover:bg-gray-100
+                      hover:underline
+                    "
                         href="#">Chải lông</a>
                 </li>
                 <li>
                     <a class="
-                  dropdown-item
-                  text-sm
-                  py-2
-                  px-4
-                  font-normal
-                  block
-                  w-full
-                  whitespace-nowrap
-                  bg-transparent
-                  text-gray-700
-                  hover:bg-gray-100
-                  hover:underline
-                "
+                      dropdown-item
+                      text-sm
+                      py-2
+                      px-4
+                      font-normal
+                      block
+                      w-full
+                      whitespace-nowrap
+                      bg-transparent
+                      text-gray-700
+                      hover:bg-gray-100
+                      hover:underline
+                    "
                         href="#">Thuốc</a>
                 </li>
                 <li>
                     <a class="
-                  dropdown-item
-                  text-sm
-                  py-2
-                  px-4
-                  font-normal
-                  block
-                  w-full
-                  whitespace-nowrap
-                  bg-transparent
-                  text-gray-700
-                  hover:bg-gray-100
-                  hover:underline
-                "
+                      dropdown-item
+                      text-sm
+                      py-2
+                      px-4
+                      font-normal
+                      block
+                      w-full
+                      whitespace-nowrap
+                      bg-transparent
+                      text-gray-700
+                      hover:bg-gray-100
+                      hover:underline
+                    "
                         href="#">Vệ sinh</a>
                 </li>
             </ul>
@@ -175,6 +175,19 @@
     </div>
     <div class="flex space-x-4 float-right justify-end w-[200px]">
         @include('user.share.search')
+        <a href="{{ route('cart', ['username' => 'noname01']) }}" class="relative ">
+            <svg class="cursor-pointer  hover:scale-110 transition duration-300 ease-in-out" width="20"
+                height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 20H0V6H20V20ZM2 18H18V8H2V18Z"></path>
+                <path
+                    d="M14 3.99995H12C12 3.49995 11.8 2.99995 11.4 2.59995C10.7 1.89995 9.3 1.89995 8.6 2.59995C8.2 2.89995 8 3.39995 8 3.99995H6C6 2.89995 6.4 1.89995 7.2 1.19995C8.7 -0.300049 11.3 -0.300049 12.9 1.19995C13.6 1.89995 14 2.89995 14 3.99995Z">
+                </path>
+            </svg>
+            <div
+                class="absolute animate-pulse -top-2 -right-4 rounded-full w-5 h-5 flex justify-center items-center bg-red-500">
+                <span class="font-mono text-[12px] text-white">12</span>
+            </div>
+        </a>
 
         <svg class="cursor-pointer  hover:scale-110 transition duration-300 ease-in-out" width="20" height="20"
             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -185,14 +198,6 @@
                 d="M12.9 6.88199C13.6 6.18634 14 5.19255 14 4C14 2.80745 13.6 1.91304 12.9 1.11801C11.3 -0.372671 8.7 -0.372671 7.2 1.11801C6.4 1.91304 6 2.90683 6 4C6 5.09317 6.4 6.08696 7.2 6.88199C8.7 8.37267 11.3 8.37267 12.9 6.88199ZM8.6 2.6087C9.3 1.91304 10.7 1.91304 11.4 2.6087C11.8 3.00621 12 3.50311 12 4C12 4.49689 11.8 4.99379 11.4 5.3913C10.7 6.08696 9.3 6.08696 8.6 5.3913C8.2 5.09317 8 4.59627 8 4C8 3.40373 8.2 2.90683 8.6 2.6087Z">
             </path>
         </svg>
-        <a href="{{ route('cart', ['username' => 'noname01']) }}">
-            <svg class="cursor-pointer  hover:scale-110 transition duration-300 ease-in-out" width="20"
-                height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 20H0V6H20V20ZM2 18H18V8H2V18Z"></path>
-                <path
-                    d="M14 3.99995H12C12 3.49995 11.8 2.99995 11.4 2.59995C10.7 1.89995 9.3 1.89995 8.6 2.59995C8.2 2.89995 8 3.39995 8 3.99995H6C6 2.89995 6.4 1.89995 7.2 1.19995C8.7 -0.300049 11.3 -0.300049 12.9 1.19995C13.6 1.89995 14 2.89995 14 3.99995Z">
-                </path>
-            </svg>
-        </a>
+
     </div>
 </div>

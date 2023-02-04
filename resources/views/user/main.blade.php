@@ -8,8 +8,12 @@
 </head>
 
 <body class="body">
-    @include('user.share.navigation')
-    @yield('content')
+    <div class="fixed w-full bg-white z-10">
+        @include('user.share.navigation')
+    </div>
+    <div class="py-24">
+        @yield('content')
+    </div>
     @include('user.share.footer')
     @include('user.share.script')
 </body>
