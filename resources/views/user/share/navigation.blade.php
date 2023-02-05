@@ -174,7 +174,9 @@
             TIN TỨC</div>
     </div>
     <div class="flex space-x-4 float-right justify-end w-[200px]">
+
         @include('user.share.search')
+
         <a href="{{ route('cart', ['username' => 'noname01']) }}" class="relative ">
             <svg class="cursor-pointer  hover:scale-110 transition duration-300 ease-in-out" width="20"
                 height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
