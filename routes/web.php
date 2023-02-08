@@ -50,3 +50,11 @@ Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
     /* Defining the route for the collection page. */
     Route::get('/{username}', ['as' => 'cart', 'uses' => $controller . $method]);
 });
+/* Defining the prefix for the controller and the route for the login page. */
+$prefix = '/login';
+Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
+    $controller = $prefixControllerUser . '\LoginController';
+    $method = '@index';
+    /* Defining the route for the login page. */
+    Route::get('/', ['as' => 'login', 'uses' => $controller . $method]);
+});
