@@ -58,3 +58,10 @@ Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
     /* Defining the route for the login page. */
     Route::get('/', ['as' => 'login', 'uses' => $controller . $method]);
 });
+$prefix = '/bill';
+Route::group(['prefix' => $prefix], function () use ($prefixControllerUser) {
+    $controller = $prefixControllerUser . '\BillController';
+    $method = '@index';
+    /* Defining the route for the bill page. */
+    Route::get('/', ['as' => 'bill', 'uses' => $controller . $method]);
+});
